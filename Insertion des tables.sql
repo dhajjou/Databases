@@ -77,7 +77,7 @@ INSERT INTO reports_not_signed_yet (id_report, member_id, affected_date) VALUES
 (10, 8, '2022-02-24');
 
 -- Tableau cevent
-INSERT INTO cevent (event_name, event_start_date, event_end_date, event_start_time, event_end_time, event_type, budget) VALUES
+INSERT INTO event (event_name, event_start_date, event_end_date, event_start_time, event_end_time, event_type, budget) VALUES
 ('Training Session 1', '2022-02-01', '2022-02-02', '09:00:00', '17:00:00', 'training', 1000),
 ('Workshop 1', '2022-02-05', '2022-02-05', '14:00:00', '18:00:00', 'workshop', 500),
 ('Party Night', '2022-02-10', '2022-02-11', '21:00:00', '02:00:00', 'party', 2000),
