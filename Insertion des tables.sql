@@ -24,6 +24,7 @@ INSERT INTO club (name, creation_date, type) VALUES
 ('Volleyball Club', '2013-04-12', 'sports'),
 ('Photography Club', '2022-03-05', 'cultural');
 
+
 -- Tableau club_member
 INSERT INTO club_member (responsability, start_date, end_date, club_name, student_num) VALUES
 ('president', '2021-01-01', '2022-01-01', 'Music Club', 1),
