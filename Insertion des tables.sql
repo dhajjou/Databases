@@ -12,7 +12,7 @@ INSERT INTO student (s_name, gender, class, s_level, date_of_birth) VALUES
 ('Sophia Thomas', 'Female', 'Class B', 'Level 2', '2003-07-18');
 
 -- Tableau club
-INSERT INTO club (c_name, creation, c_type) VALUES
+INSERT INTO club (name, creation_date, type) VALUES
 ('Music Club', '2020-01-01', 'cultural'),
 ('Robotics Club', '2018-03-15', 'technical'),
 ('Football Club', '2017-09-10', 'sports'),
